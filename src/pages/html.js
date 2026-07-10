@@ -1,11 +1,12 @@
 import Header from "../component/header";
 import Footer from "../component/footer";
+import MainContent from "../component/MainContent";
 
 const Html = () => {
   return (
     <>
       <Header />
-      <main>html page</main>
+      <MainContent pageName="HTML" create="name html"/>
       <Footer />
     </>
   );
