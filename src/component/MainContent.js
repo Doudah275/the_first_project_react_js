@@ -1,12 +1,12 @@
 import React from 'react';
 import "./MainContent.css";
 
-const MainContent = ({pageName, create}) => {
+const MainContent = ({pageName}) => {
   return (
     <div>
       <main>{pageName} page
         <br />
-        {create}
+        
       </main>
     
     </div>
