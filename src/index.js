@@ -9,6 +9,7 @@ import HTML from "./pages/html";
 import Css from "./pages/css";
 import Javascript from "./pages/javascript";
 
+import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -38,4 +39,4 @@ root.render(
       <RouterProvider router={router} />
     </HelmetProvider>
   </React.StrictMode>
-);
+);serviceWorkerRegistration.register();
